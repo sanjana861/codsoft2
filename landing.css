@@ -1,0 +1,276 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fafafa;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    
+}
+
+/* Header */
+header {
+    background-color: #3b5998;
+    color: white;
+    padding: 10px 0;
+}
+
+header .logo {
+    float: left;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 25px;
+    font-size: 20px;
+    top: 1px;
+    font-family: 'sans-serif';
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #ff6347;
+}
+
+/* Hero Section */
+.hero {
+    padding: 150px 0;
+    text-align: center;
+    height: 700px;
+}
+.bg-img{
+
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    position: absolute;
+    width: 1525px;
+    height: 700px;
+    top: 60px;
+    left: 0%;
+    right: 0%;
+    
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: black;
+    position: relative;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    color: black;
+    position: relative;
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff6347;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background-color: #e55337;
+}
+
+/* About Section */
+.about {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f0f0f0;
+    height: 700px;
+}
+
+.about h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.about p {
+    font-size: 1.4rem;
+    color: #666;
+    font-weight: 100;
+    font-family: 'Lucida Sans';
+}
+
+.about img {
+    margin-top: 20px;
+    max-width: 100%;
+    border-radius: 10px;
+    top: 1000px;
+
+}
+
+/* Prizes Section */
+.prizes {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    height: 700px;
+}
+
+.prizes h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.prize-box {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 10px;
+    background-color: #ffeeba;
+    border: 2px solid #333;
+    border-radius: 10px;
+    
+}
+
+.prize-box h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-family: times;
+}
+.prize-box h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-family: 'sans-serif';
+    text-align: center;
+}
+
+.prize-box p {
+    font-size: 1.0rem;
+    font-family: 'lucida sans';
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.prize-box h5{
+    font-size: 16px;
+    font-weight: 0;
+}
+.prize-box li{
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.certi{
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'gill sans';
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* Rules Section */
+.rules {
+    background-color: #e0f7fa;
+    padding: 50px 0;
+    text-align: center;
+    height: 700px;
+}
+
+.rules h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-family: 'times new roman';
+}
+
+.rules li{
+    list-style: none;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.rules li {
+    margin: 10px 0;
+    text-align: left;
+    font-size: 25px;
+    font-family: 'calibri';
+
+    
+}
+
+/* Register Section */
+.register {
+    padding: 50px 0;
+    background-color: #d1c4e9;
+    text-align: center;
+    height: 400px;
+}
+
+.register h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: 'georgia';
+}
+
+.register p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.register .btn-register {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #8e24aa;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.register .btn-register:hover {
+    background-color: #7b1fa2;
+}
+
+.register .deadline {
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 1rem;
+}
